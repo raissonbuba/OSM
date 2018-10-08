@@ -426,7 +426,7 @@ p {
 
 .wellcome_area {
     background-image: url(img/bg-img/welcome-bg3.png);
-    height: 400px;
+    height: 60vh;
     position: relative;
     z-index: 1;
     background-position: bottom center;
@@ -698,6 +698,10 @@ p {
 :: 6.0 Video Area CSS
 -------------------------- */
 
+.video-section{
+	margin-bottom: -250px;
+}
+
 .video-area {
     position: relative;
     z-index: 1;
@@ -739,8 +743,8 @@ p {
     background: -webkit-gradient(linear, right top, left top, from(#ee892a), to(#ffc107)));
     background: -o-linear-gradient(right, #ee892a, #ffc107));
     background: linear-gradient(to left, #ee892a, #ffc107);
-    padding: 180px 0 80px 0;
-    top: -100px;
+    padding: 130px 0 130px 0;
+    top: -300px;
 }
 
 
@@ -1065,6 +1069,11 @@ p {
 :: 12.0 Team Area CSS Start
 -------------------------- */
 
+.our-Team-area{
+	top: -250px;
+	padding-bottom: 50px;
+}
+
 .member-image {
     margin-bottom: 30px;
     border-radius: 30px 30px 30px 0;
@@ -1074,7 +1083,7 @@ p {
 
 .member-image img {
     border-radius: 30px 30px 30px 0;
-    margin-top: -80px;
+    margin-top: 100px;
 }
 
 .member-text > h4 {
@@ -1173,20 +1182,29 @@ p {
     margin-bottom: 50px;
 }
 
+#sell{
+	height: 48px;
+    font-size: 16px;
+    padding: 10px 10px;
+    border-radius: 10px 10px 0 10px;
+}
+
+#sell:nth-child(1) { color: #ffc107; }
+
 #name {
-    font-size: 18px;
-    padding: 15px 15px;
-    border-radius: 25px 25px 25px 0;
+    font-size: 16px;
+    padding: 10px 10px;
+    border-radius: 10px 10px 0 10px;
 }
 
 #email {
-    font-size: 18px;
-    padding: 15px 15px;
-    border-radius: 25px 25px 25px 0;
+    font-size: 16px;
+    padding: 10px 10px;
+    border-radius: 10px 10px 0 10px;
 }
 
 #message {
-    border-radius: 25px 25px 25px 0;
+    border-radius: 10px 10px 0 10px;
 }
 
 .btn.submit-btn {
@@ -1222,6 +1240,10 @@ p {
     color: #ee892a;
     font-size: 72px;
     font-weight: 700;
+}
+
+.footer-social-icon{
+    bottom: -50px !important;
 }
 
 .footer-social-icon > a > i {
