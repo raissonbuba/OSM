@@ -50,7 +50,7 @@
         $('.slider-for').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
-            speed: 500,
+            speed: 20,
             arrows: false,
             fade: true,
             asNavFor: '.slider-nav'
@@ -58,7 +58,7 @@
         $('.slider-nav').slick({
             slidesToShow: 3,
             slidesToScroll: 1,
-            speed: 500,
+            speed: 20,
             asNavFor: '.slider-for',
             dots: true,
             centerMode: true,
@@ -102,7 +102,7 @@
     if ($.fn.onePageNav) {
         $('#nav').onePageNav({
             currentClass: 'active',
-            scrollSpeed: 2000,
+            scrollSpeed: 500,
             easing: 'easeOutQuad'
         });
     }
